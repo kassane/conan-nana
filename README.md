@@ -1,9 +1,9 @@
 [conan-io](https://conan.io/) recipe for [nana](http://nanapro.org/) gui library
 ====
 
-Provides version 1.7.0 in both Debug and Release builds.
+Provides version 1.7.2 in both Debug and Release builds.
 
-Tested on Ubuntu 18.04. Contributions to other platforms and earlier
+Tested on Ubuntu 18.04 and ArchLinux. Contributions to other platforms and earlier
 versions are very welcome.
 
 Usage
