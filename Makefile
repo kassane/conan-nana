@@ -24,4 +24,4 @@ package-uninstall:
 	# always exit with success because you could have removed
 	# it manually ahead of time which will cause package-install to
 	# fail as this dependent rule will fail first
-	conan remove -f nana/1.7.0@ppetraki/nana || :
+	conan remove -f nana/1.7.2@ppetraki/nana || :
