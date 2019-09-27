@@ -4,7 +4,7 @@ from conans import ConanFile, CMake, tools
 
 class NanaConan(ConanFile):
     name            = "nana"
-    version         = "1.7.0"
+    version         = "1.7.2"
     license         = "MIT"
     author          = "Peter M. Petrakis  peter.petrakis@protonmail.com"
     url             = "https://github.com/ppetraki/conan-nana.git"
@@ -21,8 +21,8 @@ class NanaConan(ConanFile):
     _upstream   = "https://github.com/cnjinhao/nana.git"
 
     # XXX they made a major release, 1.7.0, and tagged it as v1.7-alpha
-    #_tag        = "v" + version
-    _tag        = "v1.7-alpha"
+    _tag        = "v" + version
+    #_tag        = "v1.7-alpha"
 
     # make this stand out
     _vcs_folder = "nana" + "_" + _tag
